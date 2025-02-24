@@ -1,5 +1,11 @@
-import Chat from "@/components/Chat";
+import GeminiChat from "@/components/GeminiChat";
+// import OpenAIChat from "@/components/OpenAIChat";
 
 export default function Page() {
-  return <Chat />;
+  return (
+    <>
+      <GeminiChat />
+      {/* <OpenAIChat /> */}
+    </>
+  );
 }
